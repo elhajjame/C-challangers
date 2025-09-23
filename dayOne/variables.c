@@ -11,22 +11,27 @@ last name, first name, age, gender, and email address. The data is entered from 
     char gender [6];
     char email [50];
 
-printf("type your last name");
+printf("type your last name: \n");
 scanf("%s", &lastName);
 
-printf("type your first name");
+printf("type your first name: \n");
 scanf("%s", &firstName);
 
-printf("enter your age");
+printf("enter your age: \n");
 scanf("%d", &age);
 
-printf("select your gender");
+printf("select your gender: \n");
 scanf("%s", &gender);
 
-printf("enter email");
+printf("enter email: \n");
 scanf("%s", &email);
 
-    
+printf("your last name is: %s \n", lastName);
+printf("your firs name is: %s \n", firstName);
+printf("your age is: %d \n", age);
+printf("your gender is: %s \n", gender);
+printf("email: %s \n", email);
+
 
     return 0;
 }

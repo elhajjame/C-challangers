@@ -6,18 +6,20 @@ int main() {
     printf("Guess the winner number (0-20): ");
     scanf("%d", &n);
 
-    int found = 0;
-    for(i = 0; i < 6; i++) {
-        if(n == arr[i]) {
-            found = 1;  
-            break;      
+    for ( i = 0; i < n; i++)
+    {
+        if (n==arr[i])
+        {
+            printf("the number %d is found",n);
+            break;
         }
+        
     }
-
-    if(found)
-        printf("The number %d is in our system.\n", n);
-    else
-        printf("Sorry, try again next time.\n");
+    if (n==i)
+    {
+        printf("the number are not found");
+    }
+    
 
     return 0;
 }

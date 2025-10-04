@@ -16,7 +16,7 @@ int main(){
 
     printf("enter the multiplication number: ");
     scanf("%d",&multiNum);
-
+    
     for (i = 0; i < n; i++)
     {
         multi=multiNum*arr[i];

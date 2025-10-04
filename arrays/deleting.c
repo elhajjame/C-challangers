@@ -13,11 +13,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
 
-    printf("enter the position that u want to delete: ");
+    printf("enter the element that u want to delete: ");
     scanf("%d",&pos);
     if (pos<0 || pos> size)
     {
-        printf("invalid position");
+        printf("invalid");
     }
     else{
          deleted= arr[pos-1];

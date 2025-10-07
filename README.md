@@ -1,6 +1,4 @@
 # C-challangers
-This repository contains resources, exercises, and projects related to SAS as part of my learning journey at YouCode.
-
 Branch Information:
 
 All the project files are located in the master branch.
